@@ -1,0 +1,19 @@
+.Vedio{
+    overflow: hidden;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    // height: 64%;
+    // background-color: antiquewhite;
+    video{
+        margin: auto;
+        min-width: 47vw;
+        height: 62vh;
+        border-radius: 3.2rem;
+        // padding:20px;
+        object-fit: cover;
+        // background-color: aqua;
+        
+    }
+}

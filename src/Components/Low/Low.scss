@@ -1,0 +1,21 @@
+.low{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // align-items: center;
+    width:100%;
+    box-sizing: border-box;
+    .low-left{
+        display: flex;
+        width:28%;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        .low-text{
+            margin-bottom: 25rem;
+        }
+    }
+    .low-right{
+        display: block;
+    }
+}
