@@ -9,6 +9,7 @@ function Low() {
     "https://global-uploads.webflow.com/62efc7cb58ad153bfb146988/63455a67996ba248148c4e31_add-options%20(3)-transcode.mp4",
   ];
   const [vedioSrc, setvedioSrc] = useState(vedioUrl[0]);
+  const [text, setText] = useState([]);
 
   useEffect(() => {
     const handleScroll = (e) => {
@@ -21,21 +22,28 @@ function Low() {
       }
     };
 
+    const handleData = () => {
+      fetch("https://mocki.io/v1/ee762599-31ae-4a3d-a6c7-d596525945e1")
+        .then((res) => res.json())
+        .then((json) => {
+          console.log(json.texts);
+          setText(json.texts);
+        });
+    };
+
     window.addEventListener("scroll", handleScroll);
-  });
+    handleData();
+  }, []);
 
   return (
     <div className="low">
       <div className="low-left">
-        <div className="low-text">
-          <Text />
-        </div>
-        <div className="low-text">
-          <Text />
-        </div>
-        <div className="low-text">
-          <Text />
-        </div>
+        {text &&
+          text.map((item, key) => (
+            <div className="low-text" key={key}>
+              <Text text={item} />
+            </div>
+          ))}
       </div>
       <div className="low-right">
         <Vedio vedioSrc={vedioSrc} />

@@ -11,14 +11,14 @@ function Header() {
           <img src={Logo} loading="lazy" width="36" alt="Logo" />
         </div>
         <div className="links">
-          <a href="" className="arrow">
+          <a href="/" className="arrow">
             Product
             <span>
               <DownKey />
             </span>
           </a>
-          <a href="">Our Story </a>
-          <a href="" className="arrow">
+          <a href="/">Our Story </a>
+          <a href="/" className="arrow">
             Resources
             <span>
               <DownKey />
