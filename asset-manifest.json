@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/athena-assignment/static/css/main.fa223580.css",
-    "main.js": "/athena-assignment/static/js/main.f0704e63.js",
+    "main.js": "/athena-assignment/static/js/main.341120bd.js",
     "static/js/787.50df9bbe.chunk.js": "/athena-assignment/static/js/787.50df9bbe.chunk.js",
     "static/media/Logo.png": "/athena-assignment/static/media/Logo.f2b92e3e45f691c5a1fc.png",
     "index.html": "/athena-assignment/index.html",
     "main.fa223580.css.map": "/athena-assignment/static/css/main.fa223580.css.map",
-    "main.f0704e63.js.map": "/athena-assignment/static/js/main.f0704e63.js.map",
+    "main.341120bd.js.map": "/athena-assignment/static/js/main.341120bd.js.map",
     "787.50df9bbe.chunk.js.map": "/athena-assignment/static/js/787.50df9bbe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa223580.css",
-    "static/js/main.f0704e63.js"
+    "static/js/main.341120bd.js"
   ]
 }
